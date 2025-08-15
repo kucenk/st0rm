@@ -1,0 +1,28 @@
+# stOrm configuration
+{
+# Jabber account where stOrm will login
+'CONNECT_SERVER': 'server.tld',
+'PORT': 5222,
+'JID': 'storm@server.tld',
+'PASSWORD': 'xxxxxXXXxxxxx',
+'RESOURCE': 'bot',
+
+# Chatroom nick
+'DEFAULT_NICK': 'stOrm-test',
+
+# Jabber accounts that will administrate stOrm
+'ADMINS': ['admin1@server.tld','admin2@server.tld'],
+'ADMIN_PASSWORD': 'verysecretcredential',
+
+# stOrm will try to reconnect on disconnections
+'AUTO_RESTART': 1,
+
+# Where to store HTML files from chatrooms logs
+# To disable logging, set to empty string: '',
+'PUBLIC_LOG_DIR': '',
+
+# Where to store logs of private chats
+# To disable logging, set to empty string: '',
+'PRIVATE_LOG_DIR': '',
+
+}
